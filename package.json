@@ -1,0 +1,66 @@
+{
+  "name": "@rise-design/colors",
+  "version": "0.0.0",
+  "description": "Rise Design 颜色库",
+  "keywords": [
+    "frontend",
+    "design",
+    "rise-design",
+    "ui",
+    "colors"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/rise-design/rise-design-colors",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rise-design/rise-design-colors.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rise-design/rise-design-colors/issues"
+  },
+  "main": "dist/cjs/main.js",
+  "types": "dist/esm/main.d.ts",
+  "module": "dist/esm/main.js",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "engines": {
+    "node": ">=24.15.0"
+  },
+  "scripts": {
+    "serve": "vite serve",
+    "build:cjs": "vite build --mode cjs",
+    "build:esm": "vite build --mode esm",
+    "build:css": "vite build --mode css",
+    "build:all": "pnpm build:cjs && pnpm build:esm && pnpm build:css",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
+    "test": "vitest run",
+    "prepare": "husky",
+    "prepublishOnly": "pnpm test && pnpm lint:fix && pnpm build:all"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^21.0.2",
+    "@commitlint/config-conventional": "^21.0.2",
+    "@eslint/js": "^10.0.1",
+    "@microsoft/api-extractor": "^7.58.9",
+    "eslint": "^10.5.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.6",
+    "globals": "^17.6.0",
+    "html2canvas": "^1.4.1",
+    "husky": "^9.1.7",
+    "less": "^4.6.6",
+    "lint-staged": "^17.0.7",
+    "prettier": "^3.8.4",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.61.1",
+    "vite": "^8.0.16",
+    "vite-plugin-dts": "^5.0.2",
+    "vitest": "^4.1.9"
+  }
+}
