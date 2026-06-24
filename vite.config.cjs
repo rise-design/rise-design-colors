@@ -92,7 +92,7 @@ module.exports = defineConfig(({ command, mode }) => {
     return {
       ...commonBuildConfig,
       build: {
-        outDir: BUILD_CSS_DIR,
+        outDir: resolve(DIST_DIR, 'css'),
         emptyOutDir: true,
         cssMinify: true,
         rolldownOptions: {
