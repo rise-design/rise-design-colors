@@ -180,7 +180,7 @@ git push origin --tags
 # 第 6 步：登录 NPM 官方账号
 pnpm login --registry https://registry.npmjs.org
 
-# 第 6 步：发布 NPM 包
+# 第 7 步：发布 NPM 包
 pnpm publish
 ```
 
