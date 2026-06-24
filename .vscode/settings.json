@@ -1,0 +1,8 @@
+{
+  "files.associations": {
+    "LICENSE": "plaintext",
+    ".prettierignore": "ignore"
+  },
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 13
+}

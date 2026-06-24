@@ -1,0 +1,37 @@
+#
+# EditorConfig 官网 (http://editorconfig.org)
+#
+root = true
+
+#
+# 通用配置
+#
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 2
+
+#
+# 项目源码
+#
+[*.{html,less,ts}]
+indent_style = space
+indent_size = 2
+
+#
+# 项目配置
+#
+[*.{cjs,json,yaml}]
+indent_style = space
+indent_size = 2
+
+#
+# 项目说明
+#
+[*.md]
+trim_trailing_whitespace = false
+indent_style = space
+indent_size = 2

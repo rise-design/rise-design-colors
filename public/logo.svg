@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <!-- 左上深紫蓝方块 -->
+  <rect x="96" y="96" width="400" height="400" rx="88" ry="88" fill="#5B30BC" />
+  <!-- 右上浅青蓝方块 -->
+  <rect x="528" y="96" width="400" height="400" rx="88" ry="88" fill="#805AD5" />
+  <!-- 左下蓝色方块 -->
+  <rect x="96" y="528" width="400" height="400" rx="88" ry="88" fill="#A083E0" />
+  <!-- 右下淡紫色方块 -->
+  <rect x="528" y="528" width="400" height="400" rx="88" ry="88" fill="#C2B1E6" />
+</svg>
