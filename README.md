@@ -4,7 +4,7 @@ Rise Design 颜色库
 
 ## Demo
 
-![Demo](./docs/assets/demo.png)
+![Demo](./docs/assets/demo_20260703.png)
 
 ## Install
 
