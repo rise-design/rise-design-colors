@@ -38,7 +38,7 @@ console.log(red.colors) // [#F6D5D5, #ECA7A7, #EC6F6F, #E53E3E, #C91B1B, #911414
 ```
 
 ```less
-@import '@rise-design/colors/css/variables.css';
+@import '@rise-design/colors/dist/css/variables.css';
 
 /* 基色系 */
 @color-red-base: var(--rd-color-red-base);
