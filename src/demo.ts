@@ -21,7 +21,7 @@ const createRootElement = () => {
       'justify-content': 'center',
       width: '100%',
       height: '100vh',
-      'background-color': 'var(--xrd-color-gray-0)'
+      'background-color': 'var(--rd-color-gray-0)'
     })
   )
   return rootElement
@@ -76,7 +76,7 @@ const createTextElement = (
       height: 'auto',
       'font-size': '12px',
       'font-weight': 'normal',
-      color: index < baseIndex ? 'var(--xrd-color-gray-6)' : '#fff'
+      color: index < baseIndex ? 'var(--rd-color-gray-6)' : '#fff'
     })
   )
   const colorLevelTextElement = document.createElement('span')
@@ -96,7 +96,7 @@ const createColorsWrapperElement = () => {
       display: 'grid',
       'grid-template-columns': 'repeat(4, 1fr)',
       'grid-gap': '16px',
-      width: '100%',
+      width: '1200px',
       height: 'auto',
       'box-sizing': 'border-box',
       padding: '16px',
@@ -134,7 +134,7 @@ const creatDownloadLinkElement = async (element: HTMLElement) => {
     downloadLinkElement.setAttribute(
       'style',
       createStyleString({
-        color: 'var(--xrd-color-blue-3)',
+        color: 'var(--rd-color-blue-3)',
         'margin-top': '16px',
         'text-decoration': 'none'
       })
