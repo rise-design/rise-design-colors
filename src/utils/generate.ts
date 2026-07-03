@@ -3,8 +3,8 @@ import { convertHEXColorToHSLColor, convertHSLColorToHEXColor } from './convert'
 
 /**
  * 根据基础颜色生成色阶颜色列表
- * @param   baseColor {@link HEXColor} 类型   - 基础颜色
- * @param   stepCount number 类型             - 色阶数量（少于 7 个时，自动补齐为 7 个）
+ * @param   baseColor   {@link HEXColor} 类型 - 基础颜色
+ * @param   stepCount             number 类型 - 色阶数量（少于 7 个时，自动补齐为 7 个）
  * @returns hexColors {@link HEXColor}[] 类型 - 色阶颜色列表
  */
 export function generateColors(
