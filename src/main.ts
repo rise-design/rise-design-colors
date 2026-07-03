@@ -1,7 +1,8 @@
+import type { ColorType } from '@/types/colors'
 import { BASE_COLORS } from '@/constants/colors'
 import { generateColors } from '@/utils/generate'
 
-function createColorType(colorType: string) {
+function createColorType(colorType: string): ColorType {
   const COLOR_TYPE = colorType.toUpperCase()
   const baseColor = BASE_COLORS[COLOR_TYPE]
   return {

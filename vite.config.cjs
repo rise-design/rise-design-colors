@@ -96,7 +96,7 @@ module.exports = defineConfig(({ command, mode }) => {
         emptyOutDir: true,
         cssMinify: true,
         rolldownOptions: {
-          input: resolve(STYLES_DIR, 'main.less'),
+          input: resolve(STYLES_DIR, 'variables.less'),
           output: {
             assetFileNames: 'variables.css',
           }
